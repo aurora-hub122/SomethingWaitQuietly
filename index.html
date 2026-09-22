@@ -1,0 +1,265 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="A drawer of ordinary objects that hold extraordinary memories." />
+    <title>The Drawer — Undervalued Value</title>
+    <link rel="preload" as="image" href="assets/images/drawer-keepsakes-v2.png" fetchpriority="high" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='10' fill='%2317130f'/%3E%3Cpath d='M9 17h46v32H9z' fill='%23634029' stroke='%23b08b54' stroke-width='3'/%3E%3Cpath d='M23 29h18v7H23z' rx='3' fill='%23b08b54'/%3E%3C/svg%3E" />
+  </head>
+  <body>
+    <div class="film-grain" aria-hidden="true"></div>
+    <div class="page-wear" aria-hidden="true"></div>
+
+    <main id="top">
+      <section class="intro" aria-labelledby="page-title">
+        <p class="eyebrow">Things that asked to be kept</p>
+        <h1 id="page-title">Some things<br /><em>wait quietly.</em></h1>
+        <div class="intro-note">
+          <span class="note-line" aria-hidden="true"></span>
+          <p>Nothing here is rare. Everything was kept for a reason.<br />Open gently, and take your time.</p>
+        </div>
+        <p class="pencil-note" aria-hidden="true"><span>collected over the years</span><span>opened occasionally</span><i>09 / 21</i></p>
+      </section>
+
+      <section class="archive" aria-labelledby="drawer-heading">
+        <h2 id="drawer-heading" class="sr-only">Interactive memory drawer</h2>
+        <div class="archive-decor" aria-hidden="true">
+          <span class="paper-scrap paper-scrap--left"></span>
+          <span class="paper-scrap paper-scrap--right"></span>
+          <span class="photo-corner photo-corner--one"></span>
+          <span class="photo-corner photo-corner--two"></span>
+          <span class="archive-stamp"><b>PRIVATE ARCHIVE</b><i>AURORA FENG</i><small>HANDLE WITH CARE</small></span>
+          <span class="pressed-flower">
+            <i class="flower-stem"></i><i class="flower-leaf flower-leaf--one"></i><i class="flower-leaf flower-leaf--two"></i>
+            <i class="flower-head"><b></b><b></b><b></b><b></b><b></b><em></em></i>
+          </span>
+          <span class="paper-ball"></span>
+          <span class="pixel-sticker sticker-new">NEW<br />MEMORY!</span>
+          <span class="pixel-sticker sticker-star"></span>
+          <span class="pixel-sticker sticker-clover"></span>
+          <span class="pixel-sticker sticker-click">pick a memory :)</span>
+        </div>
+        <p class="drawer-voice"><span>The Quiet Keeper</span> “I have kept these things for Aurora. Open me gently.”</p>
+        <div class="cabinet">
+          <div class="cabinet-top" aria-hidden="true"></div>
+          <details class="drawer-stage" id="drawer">
+            <summary class="drawer-front">
+              <span class="drawer-screw drawer-screw--left" aria-hidden="true"></span>
+              <span class="drawer-screw drawer-screw--right" aria-hidden="true"></span>
+              <span class="drawer-label"><small>AURORA FENG / HANDLE GENTLY</small><strong>MEMORY DRAWER</strong><i>things I could not throw away</i></span>
+              <span class="drawer-pull" aria-hidden="true"><i></i></span>
+              <span class="drawer-instruction">Open gently</span>
+            </summary>
+            <div class="drawer-cavity" aria-hidden="true"></div>
+            <div class="drawer-inside">
+              <img class="drawer-still-life" src="assets/images/drawer-keepsakes-v2.png" fetchpriority="high" alt="An old drawer containing an Arduino, piano sheet music, a Chicago ticket, an Apple Watch, a star necklace, a faded photo, an event wristband and a white ghost plush" />
+              <a class="object-hotspot object-hotspot--arduino" href="#memory-arduino" data-number="01"><span>Arduino</span></a>
+              <a class="object-hotspot object-hotspot--piano" href="#memory-piano" data-number="02"><span>Old piano scores</span></a>
+              <a class="object-hotspot object-hotspot--chicago" href="#memory-chicago" data-number="03"><span>Chicago ticket</span></a>
+              <a class="object-hotspot object-hotspot--watch" href="#memory-watch" data-number="04"><span>Apple Watch</span></a>
+              <a class="object-hotspot object-hotspot--necklace" href="#memory-necklace" data-number="05"><span>Six-point star</span></a>
+              <a class="object-hotspot object-hotspot--photo" href="#memory-photo" data-number="06"><span>A ten-year-old photo</span></a>
+              <a class="object-hotspot object-hotspot--wristband" href="#memory-wristband" data-number="07"><span>Europe Youth Event</span></a>
+              <a class="object-hotspot object-hotspot--ghost" href="#memory-ghost" data-number="08"><span>Halloween ghost</span></a>
+            </div>
+          </details>
+          <div class="cabinet-base" aria-hidden="true"></div>
+        </div>
+
+        <p class="interaction-hint"><span aria-hidden="true">↳</span> The drawer will not hurry you. Open it when you are ready.</p>
+
+      </section>
+    </main>
+
+    <footer>
+      <p>Undervalued Value <span>—</span> an archive of what remains</p>
+      <p>Kept with care — never ranked, priced, or recommended</p>
+    </footer>
+
+    <section class="memory-dialog" id="memory-arduino" role="dialog" aria-modal="true" aria-labelledby="title-arduino">
+      <div class="memory-panel">
+        <a class="dialog-close" href="#drawer" aria-label="Close memory">×</a>
+        <aside class="memory-copy">
+          <p class="memory-number">Object 01 / 08</p>
+          <h2 id="title-arduino">Arduino</h2>
+          <p class="memory-subtitle">The first circuit that taught me to stay.</p>
+          <div class="memory-rule" aria-hidden="true"><span></span></div>
+          <p class="memory-placeholder">This Arduino holds the first complete project I made with my own hands in the field I had chosen. I came from a humanities track in high school, so circuits did not feel natural to me at first. One night I worked from eight in the evening until three in the morning, only to burn the board. I remember the exhaustion, and the moment everything in me seemed to collapse. Two months later, that same stubborn learning became a kinetic flower—an art installation made with Arduino and TouchDesigner. It opened and closed as if it were breathing. That spring, it was shown at the DKU Arts and Music Festival and presented in April. People offered generous encouragement, and my professor told me this was exactly the kind of work she had hoped to see. I keep this board because it reminds me that difficulty did not mean I was on the wrong path. It may have been the moment I began to trust that path.</p>
+          <div class="memory-meta"><span>Photographs</span><strong>07 images</strong></div>
+        </aside>
+        <div class="memory-gallery" aria-label="Arduino photographs">
+          <div class="gallery-scroll">
+            <figure><img loading="lazy" decoding="async" src="assets/images/flower1.JPG" alt="Kinetic flower installation photograph 1" /><figcaption>Flower installation / photograph 01</figcaption></figure>
+            <figure><img loading="lazy" decoding="async" src="assets/images/flower2.JPG" alt="Kinetic flower installation photograph 2" /><figcaption>Flower installation / photograph 02</figcaption></figure>
+            <figure><img loading="lazy" decoding="async" src="assets/images/flower3.JPG" alt="Kinetic flower installation photograph 3" /><figcaption>Flower installation / photograph 03</figcaption></figure>
+            <figure><img loading="lazy" decoding="async" src="assets/images/image-arduino.JPG" alt="Arduino memory photograph 4" /><figcaption>Arduino / photograph 04</figcaption></figure>
+            <figure><img loading="lazy" decoding="async" src="assets/images/image-prototype.JPG" alt="Arduino memory photograph 5" /><figcaption>Arduino / photograph 05</figcaption></figure>
+            <figure><img loading="lazy" decoding="async" src="assets/images/image-prototype2.JPG" alt="Arduino memory photograph 6" /><figcaption>Arduino / photograph 06</figcaption></figure>
+            <figure><img loading="lazy" decoding="async" src="assets/images/image-prototype3.JPG" alt="Arduino memory photograph 7" /><figcaption>Arduino / photograph 07</figcaption></figure>
+          </div>
+          <p class="gallery-instruction">Move through the film →</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="memory-dialog" id="memory-piano" role="dialog" aria-modal="true" aria-labelledby="title-piano">
+      <div class="memory-panel">
+        <a class="dialog-close" href="#drawer" aria-label="Close memory">×</a>
+        <aside class="memory-copy">
+          <p class="memory-number">Object 02 / 08</p>
+          <h2 id="title-piano">Piano Scores</h2>
+          <p class="memory-subtitle">Pages that still remember my hands.</p>
+          <div class="memory-rule" aria-hidden="true"><span></span></div>
+          <p class="memory-placeholder">I began learning electronic keyboard at six and continued until thirteen, when I completed Grade 10. My parents did not fill my Saturdays with extra math classes. Instead, every Saturday meant a keyboard lesson, and every week held a little time that belonged to practice. These pages occupied much of my childhood. Their pencil marks—circles, reminders, corrections—now feel almost like handwriting left by a younger version of me. I can still remember the nervous excitement before each public performance. Looking at a score is enough to bring back the stage before the first note. After Grade 10, I wanted to learn the electone, but school became too busy, and that remains a quiet regret. Even now, when I have time, I find a score online and go to a piano room. My hands do not remember everything, but they remember enough.</p>
+          <div class="memory-meta"><span>Photographs</span><strong>03 images</strong></div>
+        </aside>
+        <div class="memory-gallery" aria-label="Piano score photographs">
+          <div class="gallery-scroll">
+            <figure><img loading="lazy" decoding="async" src="assets/images/image-piano1.JPG" alt="Piano score memory photograph 1" /><figcaption>Piano scores / photograph 01</figcaption></figure>
+            <figure><img loading="lazy" decoding="async" src="assets/images/image-piano2.JPG" alt="Piano score memory photograph 2" /><figcaption>Piano scores / photograph 02</figcaption></figure>
+            <figure><img loading="lazy" decoding="async" src="assets/images/image-piano3.JPG" alt="Piano score memory photograph 3" /><figcaption>Piano scores / photograph 03</figcaption></figure>
+          </div>
+          <p class="gallery-instruction">Move through the film →</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="memory-dialog" id="memory-chicago" role="dialog" aria-modal="true" aria-labelledby="title-chicago">
+      <div class="memory-panel">
+        <a class="dialog-close" href="#drawer" aria-label="Close memory">×</a>
+        <aside class="memory-copy">
+          <p class="memory-number">Object 03 / 08</p>
+          <h2 id="title-chicago">Chicago Ticket</h2>
+          <p class="memory-subtitle">A ticket from a cold, rainy Christmas night.</p>
+          <div class="memory-rule" aria-hidden="true"><span></span></div>
+          <p class="memory-placeholder">It was Christmas break of my first year, and I had returned to Xi’an when <em>Chicago</em> happened to be in town. One of my high school friends came with me. The winter was cold and rainy; we crossed the wet city toward the theater, carrying that particular happiness of being home and doing something unexpected. The performance felt electric—the sharp choreography, the brass, the red light, and the confidence of every movement. For a few hours, the weather outside disappeared. After the curtain call, we went backstage and met some of the cast. We took photographs together, still full of the music and slightly unwilling to let the evening end. The ticket is only a thin piece of paper, but it keeps the rain, the stage light, my old friend beside me, and the feeling of returning to a familiar city and discovering something new there.</p>
+          <div class="memory-meta"><span>Photographs</span><strong>02 images</strong></div>
+        </aside>
+        <div class="memory-gallery" aria-label="Chicago musical photographs">
+          <div class="gallery-scroll">
+            <figure><img loading="lazy" decoding="async" src="assets/images/image-musicpeople.JPG" alt="Chicago musical memory photograph 1" /><figcaption>Chicago / photograph 01</figcaption></figure>
+            <figure><img loading="lazy" decoding="async" src="assets/images/image-musicopera大.jpeg" alt="Chicago musical memory photograph 2" /><figcaption>Chicago / photograph 02</figcaption></figure>
+          </div>
+          <p class="gallery-instruction">Move through the film →</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="memory-dialog" id="memory-watch" role="dialog" aria-modal="true" aria-labelledby="title-watch">
+      <div class="memory-panel">
+        <a class="dialog-close" href="#drawer" aria-label="Close memory">×</a>
+        <aside class="memory-copy">
+          <p class="memory-number">Object 04 / 08</p>
+          <h2 id="title-watch">Apple Watch</h2>
+          <p class="memory-subtitle">A sunset I watched move beside me.</p>
+          <div class="memory-rule" aria-hidden="true"><span></span></div>
+          <p class="memory-placeholder">The memory attached to this Apple Watch is a ride through Hong Kong on what we jokingly called the “sunset flying car”—really an open-top double-decker bus. I sat with music in my ears while the streets passed beside me in fragments: signs, windows, traffic, people, and sudden pieces of sky. We seemed to be following the sunset through the city, never quite catching it, only watching the light change from gold to dusk. The watch was an ordinary object on my wrist, counting time while I was forgetting to measure it. I think that is why the moment stayed. Nothing needed to be accomplished. I only had to sit, listen, and watch the city move. When I see the watch now, I remember how freedom can sometimes feel very simple: wind against your face, a song you love, and an evening still unfolding.</p>
+          <div class="memory-meta"><span>Photographs</span><strong>03 images</strong></div>
+        </aside>
+        <div class="memory-gallery" aria-label="Apple Watch photographs">
+          <div class="gallery-scroll">
+            <figure><img loading="lazy" decoding="async" src="assets/images/image-hongkongcar1大.jpeg" alt="Apple Watch memory photograph 1" /><figcaption>Apple Watch / photograph 01</figcaption></figure>
+            <figure><img loading="lazy" decoding="async" src="assets/images/image-hongkongcar2大.jpeg" alt="Apple Watch memory photograph 2" /><figcaption>Apple Watch / photograph 02</figcaption></figure>
+            <figure><img loading="lazy" decoding="async" src="assets/images/image-hongkongcar3大.jpeg" alt="Apple Watch memory photograph 3" /><figcaption>Apple Watch / photograph 03</figcaption></figure>
+          </div>
+          <p class="gallery-instruction">Move through the film →</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="memory-dialog" id="memory-necklace" role="dialog" aria-modal="true" aria-labelledby="title-necklace">
+      <div class="memory-panel">
+        <a class="dialog-close" href="#drawer" aria-label="Close memory">×</a>
+        <aside class="memory-copy">
+          <p class="memory-number">Object 05 / 08</p>
+          <h2 id="title-necklace">Star Necklace</h2>
+          <p class="memory-subtitle">A small star carrying a city.</p>
+          <div class="memory-rule" aria-hidden="true"><span></span></div>
+          <p class="memory-placeholder">I bought this APM six-point star necklace during spring break of my first year, in Hong Kong. Now the necklace carries the city with it. I remember the four of us—two boys and two girls—walking without a destination through the streets at dusk. We stood by Victoria Harbour with the wind moving around us, shared a little wine, and reached that gentle point of being just slightly tipsy. Then we kept walking. Hong Kong felt busy without becoming chaotic, dense yet ordered, full of light and motion. Nothing dramatic needed to happen. The memory is precious because, for a few hours, none of us was trying to arrive anywhere. We were simply together inside the city. Whenever I see the star, I return to that evening: harbour wind, warm streets, tired feet, and time briefly asking nothing from us.</p>
+          <div class="memory-meta"><span>Photographs</span><strong>04 images</strong></div>
+        </aside>
+        <div class="memory-gallery" aria-label="Star necklace photographs">
+          <div class="gallery-scroll">
+            <figure><img loading="lazy" decoding="async" src="assets/images/image-bracehongkong.JPG" alt="Star necklace memory photograph 1" /><figcaption>Star necklace / photograph 01</figcaption></figure>
+            <figure><img loading="lazy" decoding="async" src="assets/images/image-hongkong1.JPG" alt="Star necklace memory photograph 2" /><figcaption>Star necklace / photograph 02</figcaption></figure>
+            <figure><img loading="lazy" decoding="async" src="assets/images/image-hongkong2大.jpeg" alt="Star necklace memory photograph 3" /><figcaption>Star necklace / photograph 03</figcaption></figure>
+            <figure><img loading="lazy" decoding="async" src="assets/images/image-hongkong3大.jpeg" alt="Star necklace memory photograph 4" /><figcaption>Star necklace / photograph 04</figcaption></figure>
+          </div>
+          <p class="gallery-instruction">Move through the film →</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="memory-dialog" id="memory-photo" role="dialog" aria-modal="true" aria-labelledby="title-photo">
+      <div class="memory-panel">
+        <a class="dialog-close" href="#drawer" aria-label="Close memory">×</a>
+        <aside class="memory-copy">
+          <p class="memory-number">Object 06 / 08</p>
+          <h2 id="title-photo">Old Photograph</h2>
+          <p class="memory-subtitle">Summers kept in the Qinling Mountains.</p>
+          <div class="memory-rule" aria-hidden="true"><span></span></div>
+          <p class="memory-placeholder">These photographs hold summers from my childhood. Almost every year, my parents took me into the Qinling Mountains. Over time, those trips became one of the quiet rhythms by which I remember growing up: leaving the city, following mountain roads, feeling the air become cooler, and finding water, trees, and open space. At the time, it probably felt ordinary because it happened so often. Now I understand that repetition is part of what made it precious. My mother was usually behind the camera, so most of the photographs show my father and me. Her absence from the frame is also a kind of presence; she is the person who noticed the moment and chose to keep it. These old pictures remind me that childhood is not always remembered through major events. Sometimes it survives as sunlight in the mountains, a familiar path, and the feeling of being taken somewhere with care.</p>
+          <p class="memory-placeholder memory-placeholder--continued">I also remember Christmas. Each year, my parents bought a tree for our home and let me decorate it myself. I would go out to choose little Christmas gifts and ornaments from the street. The holiday seemed much more present in the city then—shop windows glowing, decorations everywhere, and a warm feeling that something special was approaching. I did not know those rituals could fade or change. I only knew the happiness of carrying small treasures home and bringing the tree to life while my parents stayed nearby. That old photograph keeps some of this atmosphere too: the kind of childhood wonder in which an ordinary season could feel like a whole world prepared just for you.</p>
+          <div class="memory-meta"><span>Photographs</span><strong>03 images</strong></div>
+        </aside>
+        <div class="memory-gallery" aria-label="Old family photographs">
+          <div class="gallery-scroll">
+            <figure><img loading="lazy" decoding="async" src="assets/images/oldphoto.JPG" alt="Childhood Christmas memory photograph" /><figcaption>Old photograph / photograph 01</figcaption></figure>
+            <figure><img loading="lazy" decoding="async" src="assets/images/image-family1.JPG" alt="Family memory photograph 2" /><figcaption>Old photograph / photograph 02</figcaption></figure>
+            <figure><img loading="lazy" decoding="async" src="assets/images/image-family2.JPG" alt="Family memory photograph 3" /><figcaption>Old photograph / photograph 03</figcaption></figure>
+          </div>
+          <p class="gallery-instruction">Move through the film →</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="memory-dialog" id="memory-wristband" role="dialog" aria-modal="true" aria-labelledby="title-wristband">
+      <div class="memory-panel">
+        <a class="dialog-close" href="#drawer" aria-label="Close memory">×</a>
+        <aside class="memory-copy">
+          <p class="memory-number">Object 07 / 08</p>
+          <h2 id="title-wristband">Event Wristband</h2>
+          <p class="memory-subtitle">The journey that quietly changed my direction.</p>
+          <div class="memory-rule" aria-hidden="true"><span></span></div>
+          <p class="memory-placeholder">In 2023, I traveled to Europe for a youth study visit. I applied to join the European Youth Event, where I sat with young people from different countries and discussed global questions, including climate change. We also visited the European Parliament. The journey carried me through Belgium, France, and Germany, and gave me a close German friend. Yet one of the smallest moments has stayed most clearly: stepping out of a train station in Belgium for the first time. The space felt wide, clean, and open, and the atmosphere seemed to offer another way of living. I did not know then how far that feeling would travel with me. Looking back, I believe this experience helped shape the choices that eventually brought me to Duke Kunshan University. I keep the wristband because it marks the moment the world became larger—and my own future began to look different.</p>
+          <div class="memory-meta"><span>Photographs</span><strong>04 images</strong></div>
+        </aside>
+        <div class="memory-gallery" aria-label="Europe Youth Event photograph">
+          <div class="gallery-scroll">
+            <figure><img loading="lazy" decoding="async" src="assets/images/EYE1.JPG" alt="European Youth Event memory photograph 1" /><figcaption>European Youth Event / photograph 01</figcaption></figure>
+            <figure><img loading="lazy" decoding="async" src="assets/images/EYE2.JPG" alt="European Youth Event memory photograph 2" /><figcaption>European Youth Event / photograph 02</figcaption></figure>
+            <figure><img loading="lazy" decoding="async" src="assets/images/EYE3.JPG" alt="European Youth Event memory photograph 3" /><figcaption>European Youth Event / photograph 03</figcaption></figure>
+            <figure><img loading="lazy" decoding="async" src="assets/images/image-europe2.JPG" alt="Europe Youth Event memory photograph 4" /><figcaption>Event wristband / photograph 04</figcaption></figure>
+          </div>
+          <p class="gallery-instruction">Move through the film →</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="memory-dialog" id="memory-ghost" role="dialog" aria-modal="true" aria-labelledby="title-ghost">
+      <div class="memory-panel">
+        <a class="dialog-close" href="#drawer" aria-label="Close memory">×</a>
+        <aside class="memory-copy">
+          <p class="memory-number">Object 08 / 08</p>
+          <h2 id="title-ghost">Ghost Plush</h2>
+          <p class="memory-subtitle">A small keepsake from a team that stayed.</p>
+          <div class="memory-rule" aria-hidden="true"><span></span></div>
+          <p class="memory-placeholder">This little ghost belongs to my 2025–2026 year with Campus Activities Board, where I served as an event coordinator. Halloween was one of our largest events, and I helped plan and organize the Chinese haunted house. The days around it were crowded with details: planning the route, building the space, welcoming students, and solving whatever appeared next. What I remember most is not simply that the event succeeded, but the way the team worked. No one disappeared when the work became tiring. People kept noticing what needed to be done and quietly helping one another. At the end of the year, our supervisor asked us to write notes for each other on yellow paper, hidden until later. When I finally read mine, I was deeply moved. The ghost and that note remind me how rare it is to belong to a team that gives its full effort—and how lucky I was to be part of it.</p>
+          <div class="memory-meta"><span>Photographs</span><strong>04 images</strong></div>
+        </aside>
+        <div class="memory-gallery" aria-label="Ghost plush photographs">
+          <div class="gallery-scroll">
+            <figure><img loading="lazy" decoding="async" src="assets/images/ghost1.JPG" alt="Halloween event memory photograph 1" /><figcaption>Halloween event / photograph 01</figcaption></figure>
+            <figure><img loading="lazy" decoding="async" src="assets/images/ghost2-web.jpg" alt="Halloween event memory photograph 2" /><figcaption>Halloween event / photograph 02</figcaption></figure>
+            <figure><img loading="lazy" decoding="async" src="assets/images/image-cabpaper2.JPG" alt="Ghost plush memory photograph 3" /><figcaption>Ghost plush / photograph 03</figcaption></figure>
+            <figure><img loading="lazy" decoding="async" src="assets/images/image-cabphoto2.JPG" alt="Ghost plush memory photograph 4" /><figcaption>Ghost plush / photograph 04</figcaption></figure>
+          </div>
+          <p class="gallery-instruction">Move through the film →</p>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>
